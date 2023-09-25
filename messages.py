@@ -13,7 +13,7 @@ time.sleep(2)
 
 message = "Digite a mensagem a ser enviada n vezes"
 n = 100
-pg.write(format("O programa deve enviar 100 mensagens. Observe:"))
+pg.write("O programa deve enviar 100 mensagens. Observe: ")
 pg.press('enter')
 
 for i in range(n):
