@@ -12,7 +12,9 @@ for i in range(len(message)):
 time.sleep(2)
 
 n = 100
-pg.write("O programa deve enviar 100 figurinhas. Observe:")
+pg.write("O programa deve enviar ")
+pg.write(str(n))
+pg.write(" figurinhas. Observe:")
 pg.press('enter')
 time.sleep(0.5)
 
